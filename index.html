@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mary jane ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="hearts" id="hearts"></div>
+
+    <main class="container" id="question">
+
+        <div class="top-heart">💗</div>
+
+        <h1>Hey mary jane ❤️</h1>
+
+        <p class="message">
+            Someone has a special question for you...
+        </p>
+
+        <h2>Will you accept this special love message? 💍</h2>
+
+        <div class="buttons">
+            <button onclick="showLove()">YES ❤️</button>
+            <button id="noBtn" onclick="showLove()">NO 💔</button>
+        </div>
+
+    </main>
+
+
+    <main class="love" id="love">
+
+        <h1>LOVE YOU, MARY! ❤️</h1>
+
+        <div class="big-heart">♥</div>
+
+        <h2>My Special Message to You 💌</h2>
+
+        <div class="letter">
+            <p id="typedMessage"></p>
+        </div>
+
+        <button id="musicBtn" onclick="toggleMusic()">
+            ▶ Play Music 🎵
+        </button>
+
+        <button onclick="restartPage()">
+            ↻ Restart
+        </button>
+
+    </main>
+
+    <audio id="backgroundMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
